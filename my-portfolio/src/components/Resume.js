@@ -5,10 +5,7 @@ const Resume = () => {
     <div>
       <h2>Resume</h2>
       <p>Download my resume:</p>
-      <a href="./src/components/Resume.pdf" download>
-        Download Resume
-      </a>
-
+      <a href="./src/components/Resume.pdf" download>Download Resume</a> {/* Fixed */}
       <h3>Proficiencies</h3>
       <ul>
         <li>React</li>
@@ -23,7 +20,6 @@ const Resume = () => {
         <li>MongoDB</li>
         <li>Mongoose</li>
         <li>Mysql</li>
-
         {/* Add more proficiencies as needed */}
       </ul>
     </div>
