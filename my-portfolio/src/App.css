@@ -25,7 +25,7 @@ a {
 
 /* Styles for the navbar */
 .navbar {
-  background-color: green; /* Set the background color of the navbar to green */
+  background-color: gold; /* Set the background color of the navbar to green */
 }
 
 /* Styles for the time display */
@@ -36,7 +36,7 @@ a {
 }
 
 .footer {
-  background-color: green; /* Change background color to green */
+  background-color: gold; /* Change background color to green */
   color: #fff; /* Text color */
   padding: 20px; /* Padding */
   text-align: center; /* Center-align text */
