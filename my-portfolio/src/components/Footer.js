@@ -2,16 +2,12 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Connect with me:</p>
-      <div>
-        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-        {/* Add more social media links as needed */}
+    <footer className="footer">
+      <div className="container">
+        
+        <p>Check out my GitHub repository: <a href="https://github.com/justusmcdougal317/Pro-Page">GitHub Repository</a></p>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        {/* Add any additional footer content here */}
       </div>
     </footer>
   );

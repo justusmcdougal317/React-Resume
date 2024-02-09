@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: yellow; /* Set the background color to yellow */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Apply default styles to common elements */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Apply box-sizing border-box to all elements */
+* {
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Global styles for the entire application */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styles for the navbar */
+.navbar {
+  background-color: green; /* Set the background color of the navbar to green */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styles for the time display */
+.time {
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Adjust the font size */
+  margin-top: 20px; /* Add some space from the top */
+}
+
+.footer {
+  background-color: green; /* Change background color to green */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding */
+  text-align: center; /* Center-align text */
+  position: fixed; /* Fixed positioning */
+  bottom: 0; /* Position at the bottom of the viewport */
+  width: 100%; /* Take up full width of the viewport */
+}
+
+.footer a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.footer a:hover {
+  color: #ffd700; /* Change link color on hover */
 }

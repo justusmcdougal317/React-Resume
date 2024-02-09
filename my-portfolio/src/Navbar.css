@@ -1,22 +1,28 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
     background-color: #333;
     color: #fff;
+    padding: 10px 20px;
   }
   
-  .navbar-left {
-    /* Style for the left section of the navbar */
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
-  .navbar-right {
-    /* Style for the right section of the navbar */
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
   }
   
-  .navbar-link {
+  .navbar a {
     color: #fff;
-    margin-left: 10px;
-    /* Additional styling for navbar links */
+    text-decoration: none;
+    padding: 10px 15px; /* Add padding to make the buttons clickable */
+    background-color: green; /* Set background color for the buttons */
+    border-radius: 5px; /* Add rounded corners to the buttons */
+  }
+  
+  .navbar a:hover {
+    background-color: #008000; /* Change color on hover */
   }

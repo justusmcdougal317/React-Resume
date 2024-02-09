@@ -6,7 +6,11 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
+
 import './App.css'; // Import your global CSS file for application-wide styles
+import './styles.css';
+
 
 const App = () => {
   return (
@@ -22,6 +26,7 @@ const App = () => {
               <Route path="/resume" element={<Resume />} />
               <Route path="/" element={<AboutMe />} />
             </Routes>
+            <Footer /> {/* Render the Footer component */}
           </div>
         </div>
       </div>
